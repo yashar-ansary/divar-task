@@ -15,6 +15,6 @@ fi
 
 
 
-find "$DST" -name "backup_*.tar*" -type f -mtime +$DATE_INTERVAL -exec rm {} \;
+find "$DST" -name "*.tar*" -type f -mtime +$DATE_INTERVAL -exec rm {} \;
 
 
